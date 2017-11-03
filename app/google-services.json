@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "653182620339",
+    "firebase_url": "https://best-ringtones-and-wallpapers.firebaseio.com",
+    "project_id": "best-ringtones-and-wallpapers",
+    "storage_bucket": "best-ringtones-and-wallpapers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653182620339:android:829cc58283d21264",
+        "android_client_info": {
+          "package_name": "com.logixity.apps.bestwallpapersandringtones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653182620339-i5191bffus4gb0se2tnjbis84vgcrq71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.logixity.apps.bestwallpapersandringtones",
+            "certificate_hash": "b3a41a712cc228e6757876d569dc03767c66ca88"
+          }
+        },
+        {
+          "client_id": "653182620339-se2kvli71ek754o4sjfuore925phdiv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABUDRfRulALS9g5snRQoOcZ8vVCGn99QY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653182620339-se2kvli71ek754o4sjfuore925phdiv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.logixity.apps.mehndidesigns.Splash">
+
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/centerPoint"
+        />
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/logixity_logo"
+        android:layout_above="@id/centerPoint"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/companyIcon"
+        android:visibility="invisible"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="0dp"
+        android:layout_below="@id/centerPoint"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/splash_text"
+        android:id="@+id/companyTextIcon"
+        android:visibility="invisible"
+
+        />
+
+
+</RelativeLayout>

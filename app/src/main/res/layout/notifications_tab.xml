@@ -1,0 +1,43 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nested"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_height="match_parent"
+
+    tools:context="com.logixity.apps.bestwallpapersandringtones.RingtonesFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/NotiListView"/>
+        <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!---->
+        <!--/>-->
+        <Button
+            android:id="@+id/loadMoreNotiBtn"
+            android:layout_below="@id/NotiListView"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Load More Ringtones"/>
+        <ProgressBar
+            android:id="@+id/loadingMoreNotiProgress"
+            style="?android:attr/progressBarStyle"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loadMoreNotiBtn"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+

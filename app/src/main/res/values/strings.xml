@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Best Wallpapers And Ringtones</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_rings">Ringtones</string>
+    <string name="title_wallpapers">Wallpapers</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1474727696191193/2898690077</string>
+    <!--Test Ad-->
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <string name="native_ad_unit_id">ca-app-pub-1474727696191193/9393969752</string>
+    <!--Test Ad Native-->
+    <!--<string name="native_ad_unit_id">ca-app-pub-3940256099942544/2793859312</string>-->
+
+
+</resources>
